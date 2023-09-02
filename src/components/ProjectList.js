@@ -1,39 +1,39 @@
-import Proj1 from "../assets/proj1.jpg";
-import Proj2 from "../assets/proj2.jpg";
-import Proj3 from "../assets/proj3.webp";
-import Proj4 from "../assets/proj4.webp";
-import Proj5 from "../assets/proj5.jpg";
-import Proj6 from "../assets/proj6.png";
+import Proj1 from "../assets/projects/cocktail.png";
+import Proj2 from "../assets/projects/ecommerce.png";
+import Proj3 from "../assets/projects/crud.png";
+import Proj4 from "../assets/projects/portfolio.png";
+import Proj5 from "../assets/projects/recipe.png";
+import Proj6 from "../assets/projects/weatherproject.png";
 
 export const ProjectList = [
   {
-    name: "Dijkstra Algorithm Visualizer",
+    name: "Cocktail Website",
     image: Proj1,
-    skills: "JavaScript,HTML,CSS",
+    skills: "JavaScript,HTML,CSS,React, Redux-Toolkit",
   },
   {
     name: "Ecommerce Website",
     image: Proj2,
-    skills: "React,Node.js,MongoDB",
+    skills: "JavaScript,HTML,CSS,React, Redux-Toolkit",
   },
   {
-    name: "Spotify Clone",
+    name: "CRUD Operations",
     image: Proj3,
-    skills: "React,Node.js,MongoDB,SpotifyAPI",
+    skills: "React,Bootstrap,HTML,CSS,",
   },
   {
-    name: "Social Media Website",
+    name: "Portfolio Website",
     image: Proj4,
-    skills: "React,Node.js,MySQL,GraphQL",
+    skills: "ReactJS,Tailwind CSS",
   },
   {
-    name: "Dashboard Visualizer",
+    name: "Recipe Flavourse",
     image: Proj5,
-    skills: "JavaScript,HTML,CSS",
+    skills: "JavaScript,HTML,CSS,React,Bootstrap",
   },
   {
-    name: "Mobile Game",
+    name: "Weather App",
     image: Proj6,
-    skills: "React Native,JavaScript,HTML,CSS",
+    skills: "ReactJS,HTML,CSS",
   },
 ];
